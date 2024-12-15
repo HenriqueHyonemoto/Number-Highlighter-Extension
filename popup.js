@@ -47,7 +47,7 @@ document.getElementById('highlight-btn').addEventListener('click', () => {
             (greaterThan !== '' && num >= parseInt(greaterThan, 10)) ||
             (lessThan !== '' && num <= parseInt(lessThan, 10))
           ) {
-            return `<span class="highlight" style="background-color: yellow; color: black;">#${p1}</span>`;
+            return `<span class="highlight" style="background-color: yellow; color: black; font-weight: bold; font-size: 30px; ">#${p1}</span>`;
           }
           return match;
         });
