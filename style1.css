@@ -1,0 +1,54 @@
+
+  
+  body {
+    background-color: #1b1d24; /* Cor de fundo do GitHub */
+    padding: 20px;
+    width:300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+    border:none;
+  }
+  
+  .card h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .card input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    background-color: #15171c;
+    color:white;
+  }
+  
+  .card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3485ff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color:white;
+  }
+  
+  .card button:hover {
+    background-color: #2b72dd;
+    color:white;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
