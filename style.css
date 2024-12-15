@@ -6,7 +6,6 @@
     width:300px;
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 0.5s forwards;
@@ -21,7 +20,7 @@
   .card input {
     width: calc(100% - 22px);
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border: 1px solid #cccccc;
     border-radius: 20px;
     background-color: #15171c;
@@ -40,6 +39,12 @@
     color:white;
   }
   
+  label{
+    color:white;
+    text-align:left;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
   .card button:hover {
     background-color: #2b72dd;
     color:white;
